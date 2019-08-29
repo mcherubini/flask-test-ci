@@ -1,0 +1,189 @@
+[
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "missing-docstring",
+        "message": "Missing module docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "",
+        "line": 5,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"app\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "",
+        "line": 7,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "invalid-name",
+        "message": "Constant name \"db\" doesn't conform to UPPER_CASE naming style",
+        "message-id": "C0103"
+    },
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "Todo",
+        "line": 10,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "missing-docstring",
+        "message": "Missing class docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "error",
+        "module": "app",
+        "obj": "Todo",
+        "line": 11,
+        "column": 9,
+        "path": "app.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SQLAlchemy' has no 'Column' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "app",
+        "obj": "Todo",
+        "line": 11,
+        "column": 19,
+        "path": "app.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SQLAlchemy' has no 'Integer' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "app",
+        "obj": "Todo",
+        "line": 12,
+        "column": 14,
+        "path": "app.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SQLAlchemy' has no 'Column' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "app",
+        "obj": "Todo",
+        "line": 12,
+        "column": 24,
+        "path": "app.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SQLAlchemy' has no 'String' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "app",
+        "obj": "Todo",
+        "line": 13,
+        "column": 19,
+        "path": "app.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SQLAlchemy' has no 'Column' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "error",
+        "module": "app",
+        "obj": "Todo",
+        "line": 13,
+        "column": 29,
+        "path": "app.py",
+        "symbol": "no-member",
+        "message": "Instance of 'SQLAlchemy' has no 'DateTime' member",
+        "message-id": "E1101"
+    },
+    {
+        "type": "refactor",
+        "module": "app",
+        "obj": "Todo",
+        "line": 10,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "too-few-public-methods",
+        "message": "Too few public methods (1/2)",
+        "message-id": "R0903"
+    },
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "index",
+        "line": 20,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "missing-docstring",
+        "message": "Missing function docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "warning",
+        "module": "app",
+        "obj": "index",
+        "line": 28,
+        "column": 8,
+        "path": "app.py",
+        "symbol": "bare-except",
+        "message": "No exception type(s) specified",
+        "message-id": "W0702"
+    },
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "delete",
+        "line": 36,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "missing-docstring",
+        "message": "Missing function docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "warning",
+        "module": "app",
+        "obj": "delete",
+        "line": 43,
+        "column": 4,
+        "path": "app.py",
+        "symbol": "bare-except",
+        "message": "No exception type(s) specified",
+        "message-id": "W0702"
+    },
+    {
+        "type": "convention",
+        "module": "app",
+        "obj": "update",
+        "line": 48,
+        "column": 0,
+        "path": "app.py",
+        "symbol": "missing-docstring",
+        "message": "Missing function docstring",
+        "message-id": "C0111"
+    },
+    {
+        "type": "warning",
+        "module": "app",
+        "obj": "update",
+        "line": 57,
+        "column": 8,
+        "path": "app.py",
+        "symbol": "bare-except",
+        "message": "No exception type(s) specified",
+        "message-id": "W0702"
+    }
+]
